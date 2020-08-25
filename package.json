@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "\"An API Library which fetches data from Bombay Stock Exchange and National Stock Exchange and returns data in JSON format.\"",
   "main": "app.js",
-  "start": "node app.js"
+  "start": "node app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
