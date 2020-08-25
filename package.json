@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maanavshah/stock-market-india.git"
+    "url": "git+https://github.com/1ramkrishnan/marketdata.git"
   },
   "keywords": [
     "api",
@@ -26,9 +26,9 @@
   "author": "Maanav Shah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maanavshah/stock-market-india/issues"
+    "url": "https://github.com/1ramkrishnan/marketdata/issues"
   },
-  "homepage": "https://github.com/maanavshah/stock-market-india#readme",
+  "homepage": "https://github.com/1ramkrishnan/marketdata#readme",
   "dependencies": {
     "axios": "^0.18.1",
     "express": "^4.16.4",
