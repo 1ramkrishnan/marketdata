@@ -13,12 +13,6 @@ app.listen(PORT, () => {
 });
 
 // National Stock Exchange (NSE) APIS
-app.get('/app/:id', checkUserAuth, findApp, renderView, sendJSON);
-
-function checkUserAuth(req, res, next) {
-  if (req.session.user) return next();
-  return next(new NotAuthorizedError());
-}
 
 // Get the stock market status (open/closed) - JSON
 // Example: http://localhost:3000/get_market_status
